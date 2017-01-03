@@ -1,1 +1,2 @@
 # Hyperloop
+Code from my work on the University of Waterloo Hyperloop Competition Team. The code is part of a suite designed to allow communication between a STM microcontroller, a Raspberry Pi, and a mqtt server. The communication between the STM and the Pi uses the UART protocol, and the pySerial library. The code on the Raspberry Pi uses the Python Multiprocessing library, namely the Process and Queue modules. It also uses the paho-mqtt library for the mqtt communication.
